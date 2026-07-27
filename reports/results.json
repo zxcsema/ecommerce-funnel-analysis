@@ -1,0 +1,48 @@
+{
+  "data": {
+    "rows_before_cleaning": 2756101,
+    "duplicates_removed": 460,
+    "rows_after_cleaning": 2755641,
+    "unique_users": 1407580,
+    "period_start": "2015-05-03 03:00:04.384000",
+    "period_end": "2015-09-18 02:59:47.788000",
+    "event_counts": {
+      "view": 2664218,
+      "addtocart": 68966,
+      "transaction": 22457
+    }
+  },
+  "funnel": {
+    "view_users": 1404179,
+    "cart_users": 32934,
+    "transaction_users": 9952,
+    "view_to_cart": 0.0234542747042934,
+    "cart_to_transaction": 0.3021801178113803,
+    "view_to_transaction": 0.007087415493323857,
+    "lost_before_cart": 1371245,
+    "lost_before_transaction": 22982
+  },
+  "purchase_time": {
+    "median_hours": 0.09735666666666667,
+    "within_24_hours": 0.9554863344051447
+  },
+  "weekday_weekend": {
+    "statistic": 149.05098137837018,
+    "p_value": 2.795096909372048e-34,
+    "degrees_of_freedom": 1,
+    "minimum_expected": 2393.1579777222137,
+    "weekday_users": 1066516,
+    "weekday_buyers": 8078,
+    "weekday_conversion": 0.007574194855023272,
+    "weekend_users": 337663,
+    "weekend_buyers": 1874,
+    "weekend_conversion": 0.005549912190556857,
+    "difference_percentage_points": -0.20242826644664147
+  },
+  "daypart": {
+    "statistic": 107.64447897287863,
+    "p_value": 3.525446134769288e-23,
+    "degrees_of_freedom": 3,
+    "minimum_expected": 772.5779006807537
+  }
+}
